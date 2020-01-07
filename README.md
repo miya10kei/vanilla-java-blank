@@ -2,6 +2,11 @@ Vanilla Java Blank
 ---
 Maven archetype to create a maven project for a Vanilla Java application.
 
+## Install
+```bash
+./mvnw install
+```
+
 ## How to use
 ```bash
 mvn archetype:generate \
