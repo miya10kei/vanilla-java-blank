@@ -6,7 +6,7 @@
 
   <groupId>com.miya10kei.archetype</groupId>
   <artifactId>vanilla-java-blank-archetype</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>maven-archetype</packaging>
 
   <build>
