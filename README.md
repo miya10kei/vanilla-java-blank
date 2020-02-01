@@ -12,7 +12,7 @@ Maven archetype to create a maven project for a Vanilla Java application.
 mvn archetype:generate \
   -DarchetypeGroupId=com.miya10kei.archetype \
   -DarchetypeArtifactId=vanilla-java-blank-archetype \
-  -DarchetypeVersion=0.0.3 
+  -DarchetypeVersion=0.0.4
 ```
 
 Example
@@ -20,7 +20,7 @@ Example
 mvn archetype:generate \
   -DarchetypeGroupId=com.miya10kei.archetype \
   -DarchetypeArtifactId=vanilla-java-blank-archetype \
-  -DarchetypeVersion=0.0.3 \
+  -DarchetypeVersion=0.0.4 \
   -DgroupId=com.example \
   -DartifactId=hello \
   -Dversion=1.0.0-SNAPSHOT \
