@@ -1,10 +1,10 @@
 <!-- http://maven.apache.org/archetype/archetype-models/archetype-descriptor/archetype-descriptor.html -->
 <archetype-descriptor
-  xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0
         http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
-  xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  name="vanilla-java-blank-archetype">
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    name="vanilla-java-blank-archetype">
   <fileSets>
     <fileSet filtered="true" packaged="true" encoding="utf-8">
       <directory>src/main/java</directory>
@@ -17,6 +17,12 @@
     </fileSet>
     <fileSet filtered="true" packaged="false" encoding="utf-8">
       <directory>src/test/resources</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="false" encoding="utf-8">
+      <directory/>
+      <includes>
+        <include>README.md</include>
+      </includes>
     </fileSet>
     <fileSet filtered="false" packaged="false" encoding="utf-8">
       <directory/>
